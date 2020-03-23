@@ -1,0 +1,22 @@
+{
+  "name": "digital-jukebox",
+  "version": "1.0.0",
+  "description": "capstone2020",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabelone/capstone2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jabelone/capstone2020/issues"
+  },
+  "homepage": "https://github.com/jabelone/capstone2020#readme",
+  "devDependencies": {
+    "firebase-tools": "^7.15.1"
+  }
+}
