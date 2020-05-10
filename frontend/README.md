@@ -2,6 +2,8 @@
 
 Democratised Music!
 
+This is our color pallete "[Summer Festival](https://www.canva.com/colors/color-palettes/music-and-me/)".
+
 ## Install the dependencies
 ```bash
 npm install
