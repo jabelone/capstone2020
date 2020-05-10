@@ -1,7 +1,8 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar>
+      <q-toolbar
+      class="bg-secondary">
         <q-btn
           flat
           dense
@@ -70,6 +71,12 @@ export default {
           caption: 'Logout of the site',
           icon: 'fas fa-sign-out-alt',
           link: '/logout'
+        },
+        {
+          title: 'Venue',
+          caption: 'See a single venue',
+          icon: 'fas fa-glass-martini',
+          link: '/venue/example'
         },
         {
           title: 'Register',
