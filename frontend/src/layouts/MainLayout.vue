@@ -19,16 +19,9 @@
       </q-toolbar>
     </q-header>
 
-    <q-drawer
-      v-model="leftDrawerOpen"
-      show-if-above
-      bordered
-    >
+    <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-item-label
-          header
-          class="text-grey-8"
-        >
+        <q-item-label header class="text-grey-8">
           Main Menu
         </q-item-label>
         <EssentialLink
@@ -46,7 +39,7 @@
 </template>
 
 <script>
-import EssentialLink from 'components/EssentialLink'
+import EssentialLink from 'components/EssentialLink';
 
 export default {
   name: 'MainLayout',
@@ -55,7 +48,7 @@ export default {
     EssentialLink
   },
 
-  data () {
+  data() {
     return {
       leftDrawerOpen: false,
       essentialLinks: [
@@ -73,12 +66,18 @@ export default {
         },
         {
           title: 'Register',
-          caption: 'Register a Digital Jukebox account ',
+          caption: 'Register a Digital Jukebox account',
           icon: 'fas fa-user-plus',
           link: '/register'
         },
+        {
+          title: 'Venues',
+          caption: 'View venues',
+          icon: 'fas fa-list',
+          link: '/venues'
+        }
       ]
-    }
+    };
   }
-}
+};
 </script>
