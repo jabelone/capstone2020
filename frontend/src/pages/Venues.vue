@@ -5,7 +5,7 @@
         <q-card class="my-card" :key="item">
           <div
             v-ripple
-            @click="doSomething"
+            @click="this.$router.push('/venue/example')"
             class="cursor-pointer relative-position"
           >
             <q-img
@@ -30,11 +30,6 @@
 export default {
   name: 'PageIndex',
   components: {},
-  methods: {
-    doSomething() {
-      this.$router.push('/venue/example');
-    }
-  }
 };
 </script>
 
