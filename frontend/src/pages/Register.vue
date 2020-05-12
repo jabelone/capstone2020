@@ -6,7 +6,7 @@
       </q-card-section>
       <q-card-section>
         <q-input v-model="text" label="First Name" />
-        <q-input v-model="text" label="Dark Name" />
+        <q-input v-model="text" label="Last Name" />
         <q-input v-model="text" label="Email" type="email" />
         <q-input v-model="password" type="password" label="Password" />
       </q-card-section>
