@@ -10,6 +10,7 @@ const routes: RouteConfig[] = [
       { path: 'register', component: () => import('pages/Register.vue') },
       { path: 'venues', component: () => import('pages/Venues.vue') },
       { path: 'venue/:id', component: () => import('pages/Venue.vue') },
+      { path: 'music', component: () => import('pages/SelectMusic.vue') },
     ]
   }
 ];

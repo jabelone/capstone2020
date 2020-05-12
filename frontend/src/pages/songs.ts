@@ -19,12 +19,6 @@ export const songArray = [
   },
   {
     url:
-      'https://lastfm.freetls.fastly.net/i/u/avatar70s/4108ebf77eabb6264d19c03f5fd98d31.webp',
-    title: 'Boss Bitch',
-    artist: 'Doja Cat'
-  },
-  {
-    url:
       'https://lastfm.freetls.fastly.net/i/u/avatar70s/bbf844cc39ebff069489c02796d731d3.webp',
     title: 'Creepy Crawl',
     artist: 'Necro'
