@@ -11,8 +11,10 @@
         clickable
         v-ripple
       >
-        <q-item-section thumbnail>
-          <img :src="item.url">
+        <q-item-section avatar>
+          <q-avatar rounded>
+            <img :src="item.url">
+          </q-avatar>
         </q-item-section>
         <q-item-section>
           <q-item-label>{{ item.title }}</q-item-label>
