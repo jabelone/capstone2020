@@ -1,7 +1,11 @@
 <template>
   <div>
     <div class="container">
-      <img src="https://thebeatmegaclub.com.au/wp-content/uploads/2019/08/sarthak-navjivan-iTZOPe7BpTM-unsplash.jpg" alt="Snow" style="width:100%; height: 100%;">
+      <img
+        src="https://thebeatmegaclub.com.au/wp-content/uploads/2019/08/sarthak-navjivan-iTZOPe7BpTM-unsplash.jpg"
+        alt="Snow"
+        style="width:100%; height: 100%;"
+      />
       <h3 class="centered">Welcome to The Beat!</h3>
     </div>
     <p class="next-up">Next up: Slow dancing in the dark by Joji</p>
@@ -31,8 +35,8 @@
 </style>
 
 <script>
-import {songArray} from "../pages/songs.ts"
-import SongList from "../components/SongList.vue"
+import {songArray} from '../pages/songs.ts';
+import SongList from '../components/SongList.vue';
 export default {
   components: {SongList},
   data() {
