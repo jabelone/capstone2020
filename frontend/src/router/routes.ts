@@ -10,6 +10,19 @@ const routes: RouteConfig[] = [
       { path: 'register', component: () => import('pages/Register.vue') },
       { path: 'venues', component: () => import('pages/Venues.vue') },
       { path: 'venue/:id', component: () => import('pages/Venue.vue') },
+      { path: 'music', component: () => import('pages/SelectMusic.vue') },
+      {
+        path: 'manage',
+        component: () => import('pages/VenueManagerPages/Dashboard.vue')
+      },
+      {
+        path: '/edit',
+        component: () => import('pages/VenueManagerPages/Edit.vue')
+      },
+      {
+        path: '/patrons',
+        component: () => import('pages/VenueManagerPages/Patrons.vue')
+      }
     ]
   }
 ];

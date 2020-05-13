@@ -82,6 +82,12 @@ export default {
           caption: 'View venues',
           icon: 'fas fa-list',
           link: '/venues'
+        },
+        {
+          title: 'Music Selection',
+          caption: 'Play your favourite music',
+          icon: 'fas fa-music',
+          link: '/music'
         }
       ]
     };
